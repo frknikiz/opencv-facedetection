@@ -31,11 +31,4 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
-
-# Exclude maven wrapper
-!/.mvn/wrapper/maven-wrapper.jar
-.DS_Store
-.mvn/
-src/main/.DS_Store
-src/main/resources/templates/
-src/test/java/com/amk/
+.mvn
