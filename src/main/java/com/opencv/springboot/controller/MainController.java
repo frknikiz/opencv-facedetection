@@ -1,6 +1,6 @@
-package com.opencv.springboot.Controller;
+package com.opencv.springboot.controller;
 
-import com.opencv.springboot.Service.FaceDetectionService;
+import com.opencv.springboot.service.FaceDetectionService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;

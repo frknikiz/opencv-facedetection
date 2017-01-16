@@ -1,6 +1,6 @@
-package com.opencv.springboot.Service;
+package com.opencv.springboot.service;
 
-import com.opencv.springboot.Entity.FaceEntity;
+import com.opencv.springboot.entity.FaceEntity;
 import org.opencv.core.*;
 import org.opencv.imgcodecs.Imgcodecs;
 import org.opencv.imgproc.Imgproc;

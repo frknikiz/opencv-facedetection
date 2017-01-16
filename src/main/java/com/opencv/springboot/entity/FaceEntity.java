@@ -1,4 +1,4 @@
-package com.opencv.springboot.Entity;
+package com.opencv.springboot.entity;
 
 /**
  * Created by frkn on 16/01/2017.
