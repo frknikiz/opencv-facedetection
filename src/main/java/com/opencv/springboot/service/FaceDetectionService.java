@@ -22,11 +22,12 @@ public class FaceDetectionService {
 
 
     private URL basePath = getClass().getResource("/");
-    private List<FaceEntity> faceEntities = new ArrayList<>();
+    private List<FaceEntity> faceEntities;
     private Mat image;
 
     public FaceDetectionService detectFace(MultipartFile file) throws IOException {
 
+        faceEntities=new ArrayList<>();
         String faceLib = "haarcascades/haarcascade_frontalface_alt.xml";
         String eyeLib = "haarcascades/haarcascade_eye.xml";
         URL faceXml = new URL(basePath + faceLib);
