@@ -2,11 +2,11 @@
 
 ### Steps of Run
 
-* `$ git clone git@github.com:frknikiz/opencv-facedetection.git`
+* `$ git clone https://github.com/frknikiz/opencv-facedetection.git`
 
-* `cd opencv-facedetection`
+* `$ cd opencv-facedetection`
 
-* `mvn spring-boot:run`
+* `$ mvn spring-boot:run`
 
 ### Example
 * For json Response 
